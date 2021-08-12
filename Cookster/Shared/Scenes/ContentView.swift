@@ -14,39 +14,45 @@ struct ContentView: View {
     var recipes: [Recipe] = RecipeData
     var body: some View {
         
-        VStack(spacing: 20){
-            Text("HOME")
-                .font(.title2)
-                .fontWeight(.medium)
-                .foregroundColor(Color("Main"))
-                .padding(.vertical, 20)
-            
-            ZStack {
-                Rectangle()
-                    .foregroundColor(Color("Lightgrey"))
-                HStack {
-                    TextField("Search", text: $search)
-                    Spacer()
-                    Image(systemName: "magnifyingglass")
-                }
-                .foregroundColor(.black)
-                .padding(.leading, 10)
-                .padding(.trailing, 10)
-            }
-            .frame(height: 40)
-            .cornerRadius(13)
-            .padding()
-        }
+        NavigationView{
 
-        List {
-            ForEach(recipes.shuffled()) { item in
-                RecipeTile(recipe: item)
-                    .padding(.vertical, 10)
-                    .padding(.horizontal, 10)
-                    .cornerRadius(10)
-                    .border(Color("Main"), width: 1)
+            List {
+                ForEach(recipes.shuffled()) { item in
+                    NavigationLink(
+                        destination: RecipeView(recipes:item),
+                        label: {
+                            RecipeTile(recipe: item)
+                                .padding(.vertical, 10)
+                                .padding(.horizontal, 10)
+                                .cornerRadius(10)
+                                .border(Color("Main"), width: 1)
+                        })
+                    
+                }
+            }
+            .toolbar {
+                ToolbarItem(placement: ToolbarItemPlacement
+                                .principal){
+                    Text("HOME")
+                        .font(.system(size: 18, weight: .medium, design: .default))
+                        .foregroundColor(.black)
+                }
+                
+                ToolbarItem(placement: ToolbarItemPlacement
+                                .navigationBarTrailing){
+                    Button(action: {
+                        NavigationLink (
+                        
+                            destination: /*@START_MENU_TOKEN@*/Text("Destination")/*@END_MENU_TOKEN@*/,
+                            label: )
+                    }, label: {
+                        Image(systemName: "gear")
+                            .foregroundColor(.black)
+                    })
+                }
             }
         }
+        .accentColor(.black)
         
     }
 }

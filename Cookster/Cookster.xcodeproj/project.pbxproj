@@ -19,6 +19,8 @@
 		4F58D82E26B2B8F300CA081F /* OnboardingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58D82D26B2B8F300CA081F /* OnboardingCardView.swift */; };
 		4F58D83026B2BAFD00CA081F /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58D82F26B2BAFD00CA081F /* StartButtonView.swift */; };
 		4F58D83226B2BC4000CA081F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58D83126B2BC4000CA081F /* OnboardingView.swift */; };
+		4FF8653B26C5361100DD932A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8653A26C5361100DD932A /* SettingsView.swift */; };
+		4FFDF68526C51EA800F6B873 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDF68426C51EA800F6B873 /* RecipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		4F58D82D26B2B8F300CA081F /* OnboardingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCardView.swift; sourceTree = "<group>"; };
 		4F58D82F26B2BAFD00CA081F /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		4F58D83126B2BC4000CA081F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		4FF8653A26C5361100DD932A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		4FFDF68426C51EA800F6B873 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 			children = (
 				4F58D80526B2AF4500CA081F /* ContentView.swift */,
 				4F58D83126B2BC4000CA081F /* OnboardingView.swift */,
+				4FFDF68426C51EA800F6B873 /* RecipeView.swift */,
+				4FF8653A26C5361100DD932A /* SettingsView.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -237,10 +243,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FFDF68526C51EA800F6B873 /* RecipeView.swift in Sources */,
 				4F58D82E26B2B8F300CA081F /* OnboardingCardView.swift in Sources */,
 				4F2E350226B82549004FD224 /* RecipeTile.swift in Sources */,
 				4F58D82A26B2B0F200CA081F /* Recipe.swift in Sources */,
 				4F58D82C26B2B1E600CA081F /* RecipeData.swift in Sources */,
+				4FF8653B26C5361100DD932A /* SettingsView.swift in Sources */,
 				4F58D83026B2BAFD00CA081F /* StartButtonView.swift in Sources */,
 				4F58D81926B2AF5300CA081F /* ContentView.swift in Sources */,
 				4F58D81726B2AF5300CA081F /* CooksterApp.swift in Sources */,
