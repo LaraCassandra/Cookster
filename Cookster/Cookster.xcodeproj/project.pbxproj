@@ -19,6 +19,7 @@
 		4F58D82E26B2B8F300CA081F /* OnboardingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58D82D26B2B8F300CA081F /* OnboardingCardView.swift */; };
 		4F58D83026B2BAFD00CA081F /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58D82F26B2BAFD00CA081F /* StartButtonView.swift */; };
 		4F58D83226B2BC4000CA081F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58D83126B2BC4000CA081F /* OnboardingView.swift */; };
+		4FEECA6426C5392700755F69 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FEECA6326C5392700755F69 /* RecipeViewModel.swift */; };
 		4FF8653B26C5361100DD932A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF8653A26C5361100DD932A /* SettingsView.swift */; };
 		4FFDF68526C51EA800F6B873 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDF68426C51EA800F6B873 /* RecipeView.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		4F58D82D26B2B8F300CA081F /* OnboardingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCardView.swift; sourceTree = "<group>"; };
 		4F58D82F26B2BAFD00CA081F /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		4F58D83126B2BC4000CA081F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		4FEECA6326C5392700755F69 /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 		4FF8653A26C5361100DD932A /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		4FFDF68426C51EA800F6B873 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,6 +75,7 @@
 		4F58D80326B2AF4500CA081F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4FEECA6226C5390300755F69 /* ViewModel */,
 				4F58D82826B2B02300CA081F /* Models */,
 				4F58D82726B2B01900CA081F /* Data */,
 				4F58D82626B2B01200CA081F /* Views */,
@@ -144,6 +147,14 @@
 				4F58D82926B2B0F200CA081F /* Recipe.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		4FEECA6226C5390300755F69 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4FEECA6326C5392700755F69 /* RecipeViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +261,7 @@
 				4F58D82C26B2B1E600CA081F /* RecipeData.swift in Sources */,
 				4FF8653B26C5361100DD932A /* SettingsView.swift in Sources */,
 				4F58D83026B2BAFD00CA081F /* StartButtonView.swift in Sources */,
+				4FEECA6426C5392700755F69 /* RecipeViewModel.swift in Sources */,
 				4F58D81926B2AF5300CA081F /* ContentView.swift in Sources */,
 				4F58D81726B2AF5300CA081F /* CooksterApp.swift in Sources */,
 				4F58D83226B2BC4000CA081F /* OnboardingView.swift in Sources */,

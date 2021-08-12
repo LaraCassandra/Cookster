@@ -11,13 +11,15 @@ struct ContentView: View {
     
     @State var search = ""
     
-    var recipes: [Recipe] = RecipeData
+    //var recipes: [Recipe] = RecipeData
+    @StateObject var recipeViewModel: RecipeViewModel = RecipeViewModel()
+    
     var body: some View {
         
         NavigationView{
 
             List {
-                ForEach(recipes.shuffled()) { item in
+                ForEach(recipeViewModel.RecipeData) { item in
                     NavigationLink(
                         destination: RecipeView(recipes:item),
                         label: {
@@ -41,10 +43,7 @@ struct ContentView: View {
                 ToolbarItem(placement: ToolbarItemPlacement
                                 .navigationBarTrailing){
                     Button(action: {
-                        NavigationLink (
                         
-                            destination: /*@START_MENU_TOKEN@*/Text("Destination")/*@END_MENU_TOKEN@*/,
-                            label: )
                     }, label: {
                         Image(systemName: "gear")
                             .foregroundColor(.black)
