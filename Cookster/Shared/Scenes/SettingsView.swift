@@ -43,7 +43,7 @@ struct SettingsView: View {
                 Spacer()
             }
             .navigationTitle("Settings")
-            
+              
         }
         
     }
