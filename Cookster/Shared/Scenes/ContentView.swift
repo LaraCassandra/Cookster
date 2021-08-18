@@ -17,41 +17,43 @@ struct ContentView: View {
     var body: some View {
         
         NavigationView{
-
-            List {
+            
+            ScrollView {
+                
+                Text("SHOWING ALL RECIPES")
+                    .font(.system(size: 18, weight: .medium, design: .default))
+                    .foregroundColor(Color("Primary"))
+                    .padding(5.0)
+                
+                Rectangle()
+                    .foregroundColor(Color("Primary"))
+                    .frame(width: 50, height: 2, alignment: .center)
+                    .padding(10.0)
+                
                 ForEach(recipeViewModel.RecipeData) { item in
                     NavigationLink(
                         destination: RecipeView(recipes:item),
                         label: {
                             RecipeTile(recipe: item)
-                                .padding(.vertical, 10)
-                                .padding(.horizontal, 10)
-                                .cornerRadius(10)
-                                .border(Color("Main"), width: 1)
                         })
-                    
                 }
+                .padding(10.0)
             }
             .toolbar {
                 ToolbarItem(placement: ToolbarItemPlacement
                                 .principal){
                     Text("HOME")
                         .font(.system(size: 18, weight: .medium, design: .default))
-                        .foregroundColor(.black)
+                        .foregroundColor(Color("AccentColor"))
                 }
                 
                 ToolbarItem(placement: ToolbarItemPlacement
                                 .navigationBarTrailing){
-                    Button(action: {
-                        
-                    }, label: {
-                        Image(systemName: "gear")
-                            .foregroundColor(.black)
-                    })
+                        NavigationLink(destination: SettingsView(), label: {Image(systemName: "gear")})
                 }
             }
         }
-        .accentColor(.black)
+        .accentColor(Color("AccentColor"))
         
     }
 }

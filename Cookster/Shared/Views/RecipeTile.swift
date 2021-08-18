@@ -14,15 +14,21 @@ struct RecipeTile: View {
     var body: some View {
             VStack(alignment: .leading, spacing: 5) {
                 Text(recipe.name)
-                    .font(.title3)
-                    .foregroundColor(Color("Primary"))
-                    .fontWeight(.regular)
+                    .font(.title2)
+                    .foregroundColor(.white)
+                    .fontWeight(.bold)
                 
                 Text(recipe.difficulty + " | " + recipe.time)
                     .font(.body)
-                    .fontWeight(.light)
+                    .fontWeight(.regular)
+                    .foregroundColor(.white)
             }
-            .frame(width: 300, height: 50, alignment: .leading)
+            .frame(width: 350, height: 120, alignment: .leading)
+            .padding(.vertical, 20)
+            .padding(.leading, 15)
+            .padding(.trailing, 5)
+            .background(Color("Accent"))
+        
     }
 }
 
