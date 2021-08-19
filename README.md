@@ -244,7 +244,6 @@ Model-View-ViewModel is a design architecture that is specifically used in iOS d
 - Allow users to add new recipes from scratch
 
 <br>
-<br>
 
 <!-- VIDEO DEMO -->
 ## Video Demonstration
