@@ -84,7 +84,7 @@ struct SettingsView: View {
             .toolbar {
                 ToolbarItem(placement: ToolbarItemPlacement
                                 .principal){
-                    Text("SETTINGS")
+                    Text("Settings")
                         .font(.system(size: 18, weight: .medium, design: .default))
                         .foregroundColor(Color("AccentColor"))
                 }

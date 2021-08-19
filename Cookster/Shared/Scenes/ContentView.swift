@@ -42,7 +42,7 @@ struct ContentView: View {
             .toolbar {
                 ToolbarItem(placement: ToolbarItemPlacement
                                 .principal){
-                    Text("HOME")
+                    Text("Home")
                         .font(.system(size: 18, weight: .medium, design: .default))
                         .foregroundColor(Color("AccentColor"))
                 }
