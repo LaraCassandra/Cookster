@@ -188,20 +188,20 @@ The ideation phase begins with different tasks to get a good idea of what the ap
 - Research
 
 ### Moodboard
-<img src="Images/Moodboard.png" alt="Moodboard">
+<img src="Images/Moodboard.jpg" alt="Moodboard">
 
 <br>
 
 ### Colour Palette
-<img src="Images/Colorpalette.png" alt="Colour Palette">
+<img src="Images/Colorpalette.jpg" alt="Colour Palette">
 
 <br>
 
 ### Wireframes
 
 
-<img src="Images/wireframe1.jpg" alt="Wireframes">
-<img src="Images/wireframe2.jpg" alt="Wireframes">
+<img src="Images/Wireframe1.jpg" alt="Wireframes">
+<img src="Images/Wireframe2.jpg" alt="Wireframes">
 
 <br>
 <br>
@@ -214,7 +214,7 @@ The ideation phase begins with different tasks to get a good idea of what the ap
 
 ### Userflow
 
-<img src="Images/userflow.jpg" alt="Userflow">
+<img src="Images/Userflow.jpg" alt="Userflow">
 
 <br>
 
