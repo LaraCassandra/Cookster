@@ -247,6 +247,7 @@ Model-View-ViewModel is a design architecture that is specifically used in iOS d
 
 <!-- VIDEO DEMO -->
 ## Video Demonstration
+[Download Video Here](https://github.com/LaraCassandra/Cookster/raw/master/Video%20Demonstration/LaraCook_190218_iOS303_Video_Demonstration.mkv)
 
 <br>
 
