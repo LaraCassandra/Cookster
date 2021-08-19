@@ -15,19 +15,20 @@ struct RecipeTile: View {
             VStack(alignment: .leading, spacing: 5) {
                 Text(recipe.name)
                     .font(.title2)
-                    .foregroundColor(.white)
+                    .foregroundColor(Color("Primary2"))
                     .fontWeight(.bold)
                 
                 Text(recipe.difficulty + " | " + recipe.time)
                     .font(.body)
-                    .fontWeight(.regular)
+                    .fontWeight(.medium)
                     .foregroundColor(.white)
             }
-            .frame(width: 350, height: 120, alignment: .leading)
-            .padding(.vertical, 20)
-            .padding(.leading, 15)
-            .padding(.trailing, 5)
-            .background(Color("Accent"))
+            .frame(width: 310, height: 90, alignment: .leading)
+            .padding(.vertical, 20.0)
+            .padding(.leading, 40.0)
+            .padding(.trailing, 5.0)
+            .cornerRadius(20)
+            .background(Color("Primary"))
         
     }
 }

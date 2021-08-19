@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4F2E350226B82549004FD224 /* RecipeTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E350126B82549004FD224 /* RecipeTile.swift */; };
 		4F56031B26CE44C700CCE410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F56031A26CE44C700CCE410 /* LaunchScreen.storyboard */; };
+		4F56031D26CE5A1700CCE410 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F56031C26CE5A1700CCE410 /* SearchBar.swift */; };
 		4F58D81726B2AF5300CA081F /* CooksterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58D80426B2AF4500CA081F /* CooksterApp.swift */; };
 		4F58D81826B2AF5300CA081F /* CooksterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58D80426B2AF4500CA081F /* CooksterApp.swift */; };
 		4F58D81926B2AF5300CA081F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58D80526B2AF4500CA081F /* ContentView.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		4F2E350126B82549004FD224 /* RecipeTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTile.swift; sourceTree = "<group>"; };
 		4F56031A26CE44C700CCE410 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F56031C26CE5A1700CCE410 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		4F58D80426B2AF4500CA081F /* CooksterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooksterApp.swift; sourceTree = "<group>"; };
 		4F58D80526B2AF4500CA081F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4F58D80626B2AF5300CA081F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 				4F58D82F26B2BAFD00CA081F /* StartButtonView.swift */,
 				4F2E350126B82549004FD224 /* RecipeTile.swift */,
 				4F56031A26CE44C700CCE410 /* LaunchScreen.storyboard */,
+				4F56031C26CE5A1700CCE410 /* SearchBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				4F2E350226B82549004FD224 /* RecipeTile.swift in Sources */,
 				4F58D82A26B2B0F200CA081F /* Recipe.swift in Sources */,
 				4F58D82C26B2B1E600CA081F /* RecipeData.swift in Sources */,
+				4F56031D26CE5A1700CCE410 /* SearchBar.swift in Sources */,
 				4FF8653B26C5361100DD932A /* SettingsView.swift in Sources */,
 				4F58D83026B2BAFD00CA081F /* StartButtonView.swift in Sources */,
 				4FEECA6426C5392700755F69 /* RecipeViewModel.swift in Sources */,

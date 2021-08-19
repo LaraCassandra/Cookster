@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var search = ""
+    @State var text = ""
     
     //var recipes: [Recipe] = RecipeData
     @StateObject var recipeViewModel: RecipeViewModel = RecipeViewModel()
@@ -20,17 +20,19 @@ struct ContentView: View {
             
             ScrollView {
                 
+                SearchBar(text: $text)
+                
                 Text("SHOWING ALL RECIPES")
                     .font(.system(size: 18, weight: .medium, design: .default))
-                    .foregroundColor(Color("Primary"))
+                    .foregroundColor(Color("Accent"))
                     .padding(5.0)
                 
                 Rectangle()
-                    .foregroundColor(Color("Primary"))
+                    .foregroundColor(Color("Accent"))
                     .frame(width: 50, height: 2, alignment: .center)
                     .padding(10.0)
                 
-                ForEach(recipeViewModel.RecipeData) { item in
+                ForEach(recipeViewModel.RecipeData.filter({text.isEmpty ? true : $0.name.contains(text)})) { item in
                     NavigationLink(
                         destination: RecipeView(recipes:item),
                         label: {
