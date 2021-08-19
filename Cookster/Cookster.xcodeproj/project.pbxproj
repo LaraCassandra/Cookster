@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4F2E350226B82549004FD224 /* RecipeTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2E350126B82549004FD224 /* RecipeTile.swift */; };
+		4F56031B26CE44C700CCE410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F56031A26CE44C700CCE410 /* LaunchScreen.storyboard */; };
 		4F58D81726B2AF5300CA081F /* CooksterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58D80426B2AF4500CA081F /* CooksterApp.swift */; };
 		4F58D81826B2AF5300CA081F /* CooksterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58D80426B2AF4500CA081F /* CooksterApp.swift */; };
 		4F58D81926B2AF5300CA081F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F58D80526B2AF4500CA081F /* ContentView.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		4F2E350126B82549004FD224 /* RecipeTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTile.swift; sourceTree = "<group>"; };
+		4F56031A26CE44C700CCE410 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F58D80426B2AF4500CA081F /* CooksterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CooksterApp.swift; sourceTree = "<group>"; };
 		4F58D80526B2AF4500CA081F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4F58D80626B2AF5300CA081F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				4F58D82D26B2B8F300CA081F /* OnboardingCardView.swift */,
 				4F58D82F26B2BAFD00CA081F /* StartButtonView.swift */,
 				4F2E350126B82549004FD224 /* RecipeTile.swift */,
+				4F56031A26CE44C700CCE410 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F58D81B26B2AF5300CA081F /* Assets.xcassets in Resources */,
+				4F56031B26CE44C700CCE410 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -51,7 +51,7 @@ struct RecipeView: View {
                 
                 Text("Ingredients")
                 
-                List
+                ScrollView
                 {
                     ForEach(recipes.ingredientsList, id: \.self) { indredient in
                         Text(indredient)
@@ -59,7 +59,7 @@ struct RecipeView: View {
                 }
                 
                 Text("Directions")
-                List {
+                ScrollView {
                     ForEach(recipes.directions, id: \.self) { direction in
                         Text(direction)
                     }
