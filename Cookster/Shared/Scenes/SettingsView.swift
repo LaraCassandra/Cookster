@@ -37,7 +37,8 @@ struct SettingsView: View {
                         .padding()
                 }, content: {
                     
-                }).padding(.vertical, 5)
+                })
+                .padding(.vertical, 5)
                 .padding(.horizontal, 10)
                 
                 GroupBox(label: HStack{
@@ -94,6 +95,7 @@ struct SettingsView: View {
         
     }
 }
+
 
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
